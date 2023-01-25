@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Routes>
+        <Routes>
         <Route index path='/' element= {<Landing/>}/>
         <Route  path='/question' element= {<Question/>}/>
         <Route  path='/resultpage' element= {<Resultpage/>}/>
@@ -17,7 +17,6 @@ function App() {
 
       </Routes>
       </BrowserRouter>
-    
     </div>
   );
 }
