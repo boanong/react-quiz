@@ -9,13 +9,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-        <Route index path='/' element= {<Landing/>}/>
-        <Route  path='/question' element= {<Question/>}/>
-        <Route  path='/resultpage' element= {<Resultpage/>}/>
-
-
-
-      </Routes>
+          <Route index path="/" element={<Landing />} />
+          <Route path="/question" element={<Question />} />
+          <Route path="/resultpage" element={<Resultpage />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );

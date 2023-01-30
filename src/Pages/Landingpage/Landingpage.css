@@ -1,0 +1,57 @@
+* 
+
+body {
+    display: block;
+}
+
+.whole {
+}
+
+.header {
+    background-color: rgb(39, 2, 73);
+    height: 200px;
+    color: white;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hub {
+    color: rgb(173, 148, 1);
+}
+
+.rebase {
+    margin: 0;
+}
+
+.the {
+    margin: 0;
+}
+
+.subpage {
+    height: 800px;
+    background-color: rgb(195, 235, 235);
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 80px;
+}
+
+.get-started {
+    background-color: hsl(271, 95%, 15%);
+    color: white;
+    margin-top: 50px;
+    padding: 12px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+}
+
+    .get-started:hover {
+    background-color: rgb(98, 6, 183);
+    color: white;
+    border: none;
+    }
+

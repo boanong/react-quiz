@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f0f5f5;
+    color: black;
+    align-items: center;    
+    
+}
+
+.container {
+    background-color: #26034a;
+    position: relative;
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    color: white; 
+    border-radius: 8px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: green;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
