@@ -15,7 +15,7 @@ function Landing() {
       <div className="subpage">
         Ready to flex your musles with a few questions? Let&apos;s go!
         <br />
-        <Link to="/question">
+        <Link to="/question1">
           <button className="get-started" type="button">
             Get Started{' '}
           </button>
@@ -23,7 +23,7 @@ function Landing() {
       </div>
       <p>
         {' '}
-        <Link to="/question">Question</Link>
+        <Link to="/question1">Question</Link>
       </p>
       <p>
         {' '}

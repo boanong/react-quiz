@@ -12,7 +12,7 @@ export default function Resultpage() {
           </div>
           <h1 className="result">RESULTS</h1>
           <p className="message">
-            Thanks for taking out the time to answer this quiz. We appreciate!
+            Thanks for taking out the time to answer this quiz
           </p>
           <Link to="/">
             <button className="button" type="button">

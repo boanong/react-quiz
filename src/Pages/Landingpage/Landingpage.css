@@ -4,8 +4,6 @@ body {
     display: block;
 }
 
-.whole {
-}
 
 .header {
     background-color: rgb(39, 2, 73);
@@ -19,7 +17,7 @@ body {
 }
 
 .hub {
-    color: rgb(173, 148, 1);
+    color: #ad9401;
 }
 
 .rebase {
@@ -49,9 +47,8 @@ body {
     border: none;
 }
 
-    .get-started:hover {
+.get-started:hover {
     background-color: rgb(98, 6, 183);
     color: white;
     border: none;
-    }
-
+}

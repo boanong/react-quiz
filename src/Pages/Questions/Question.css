@@ -6,37 +6,36 @@
 body {
     background-color: #f0f5f5;
     color: black;
-    align-items: center;    
-    
+    align-items: center;
 }
 
 .container {
     background-color: #26034a;
     position: relative;
     width: 60%;
-    height: 400px;
+    height: fit-content;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     margin-top: 100px;
-    color: white; 
+    color: white;
     border-radius: 8px;
 }
 
 .progress {
-    background-color: rgb(236, 244, 244);
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    color: hsl(271, 95%, 15%);
+    border-radius: 20%;
+    height: 60px;
+    width: 85px;
+    color: #ad9401;
     font-weight: bolder;
     margin-top: -20%;
+    font-size: 1.5rem;
 }
 
 .number {
     padding-top: -20px;
-
 }
 
 .buttons {
@@ -67,8 +66,6 @@ body {
 .button:hover {
     background-color: grey;
     cursor: pointer;
-
-
 }
 
 .next {
@@ -89,4 +86,3 @@ body {
     width: 90px;
     padding: 8px;
 }
-

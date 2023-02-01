@@ -1,16 +1,21 @@
+/* eslint-disable react/no-danger */
+/* eslint-disable react/prop-types */
 import React from 'react';
 import './Question.css';
 import { Link } from 'react-router-dom';
 
-export default function Question() {
+export default function Question({ path, pageTitle, QUESTIONS, index }) {
   return (
     <div>
       <div className="container">
         <div className="sub-content">
           <div className="progress">
-            <p className="number">1/11</p>
+            <p className="number">{pageTitle}</p>
           </div>
-          <p className="question">Groundnut is harvested from trees</p>
+          <p
+            className="question"
+            dangerouslySetInnerHTML={{ __html: QUESTIONS[index - 1].question }}
+          />
           <div className="buttons">
             <div>
               <button className="button" type="button">
@@ -24,7 +29,7 @@ export default function Question() {
             </div>
           </div>
         </div>
-        <Link to="/resultpage">
+        <Link to={path}>
           <button className="next" type="button">
             Next{' '}
           </button>
