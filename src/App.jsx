@@ -13,7 +13,7 @@ function App() {
     getData()
       .then((res) => setQuestions([...res]))
       .catch((error) => {
-        console.log(error);
+        return error;
       });
   }, []);
 

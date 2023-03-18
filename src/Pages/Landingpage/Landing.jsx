@@ -20,14 +20,6 @@ function Landing() {
           </button>
         </Link>
       </div>
-      <p>
-        {' '}
-        <Link to="/question/10">Question</Link>
-      </p>
-      <p>
-        {' '}
-        <Link to="/resultpage">Results</Link>
-      </p>
     </div>
   );
 }
