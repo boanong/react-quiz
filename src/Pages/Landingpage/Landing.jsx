@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './Landingpage.css';
 
@@ -15,20 +14,12 @@ function Landing() {
       <div className="subpage">
         Ready to flex your musles with a few questions? Let&apos;s go!
         <br />
-        <Link to="/question1">
+        <Link to="/question/1">
           <button className="get-started" type="button">
             Get Started{' '}
           </button>
         </Link>
       </div>
-      <p>
-        {' '}
-        <Link to="/question1">Question</Link>
-      </p>
-      <p>
-        {' '}
-        <Link to="/resultpage">Results</Link>
-      </p>
     </div>
   );
 }
