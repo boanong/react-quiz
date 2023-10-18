@@ -42,7 +42,7 @@ export default function Question() {
                     <p className="number">Question {pageindex}</p>
                   </div>
                   <p
-                    className="question"
+                    className="question-number"
                     dangerouslySetInnerHTML={{
                       __html: questions[pageindex - 1].question,
                     }}

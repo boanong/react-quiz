@@ -7,7 +7,7 @@ function Landing() {
       <div className="header">
         <h3 className="the">The</h3>
         <h1 className="rebase">
-          Rebase Quiz <span className="hub">HUB</span>
+          Rebase Quiz <span className="hub">App</span>
         </h1>
       </div>
 
