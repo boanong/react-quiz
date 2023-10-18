@@ -19,7 +19,7 @@ body {
 .container {
     background-color: #26034a;
     position: relative;
-    width: 60%;
+    width: min(90vw, 600px);
     height: fit-content;
     min-height: 400px;
     display: flex;
@@ -60,7 +60,6 @@ body {
 
 @media (max-width: 600px) {
     .container {
-      width: 90%;
       height: 70vh;
     }
   

@@ -8,23 +8,6 @@ body {
     align-items: center;
 }
 
-.container {
-    background-color: #26034a;
-    position: relative;
-    width: fit-content;
-    min-width: 60%;
-    height: fit-content;
-    max-width: fit-content;
-    max-height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 100px;
-    color: blue;
-    border-radius: 8px;
-}
-
 .progress {
     border-radius: 20%;
     height: fit-content;
@@ -96,12 +79,7 @@ body {
     padding: 8px;
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-      width: 100%;
-      min-width: auto;
-    }
-  
+@media screen and (max-width: 600px) {  
     .buttons {
       gap: 1rem;
     }
