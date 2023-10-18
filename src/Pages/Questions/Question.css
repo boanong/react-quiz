@@ -37,6 +37,10 @@ body {
     padding: 15px;
 }
 
+.question-number {
+    padding: 20px;
+}
+
 .number {
     padding-top: -20px;
     position: absolute; 
@@ -58,7 +62,7 @@ body {
 }
 
 .question{
-    font-size: 2rem;
+    font-size: 15%;
 }
 
 .button {
