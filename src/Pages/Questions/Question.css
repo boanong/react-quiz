@@ -21,7 +21,7 @@ body {
     align-items: center;
     margin: auto;
     margin-top: 100px;
-    color: white;
+    color: blue;
     border-radius: 8px;
 }
 
@@ -35,7 +35,6 @@ body {
     font-size: 1.5rem;
     position: relative;
     padding: 15px;
-
 }
 
 .number {
@@ -92,3 +91,26 @@ body {
     width: 90px;
     padding: 8px;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      min-width: auto;
+    }
+  
+    .buttons {
+      gap: 1rem;
+    }
+  
+    .question {
+      font-size: 1.5rem;
+    }
+  
+    .button {
+      width: 50px;
+    }
+  
+    .next {
+      width: 70px;
+    }
+  }

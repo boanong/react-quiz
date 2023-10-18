@@ -8,7 +8,10 @@ body {
     background-color: #f0f5f5;
     color: black;
     align-items: center;    
-    
+}
+
+.message {
+    padding: 5px;
 }
 
 .container {
@@ -41,3 +44,21 @@ body {
     align-items: center;
     margin: auto;
 }
+
+@media (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  
+    .icon {
+      font-size: large;
+    }
+
+    .button {
+        padding: 15px 80px;
+        background-color: white;
+        text-align: center;
+        
+
+    }
+  }

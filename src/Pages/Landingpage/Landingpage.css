@@ -8,7 +8,7 @@ body {
 .header {
     background-color: rgb(39, 2, 73);
     height: 200px;
-    color: white;
+    color: rgb(247, 241, 241);
     margin-top: auto;
     display: flex;
     align-items: center;
@@ -51,4 +51,20 @@ body {
     background-color: rgb(98, 6, 183);
     color: white;
     border: none;
+}
+
+@media (max-width: 768px) {
+    footer {
+        background-color: #f5f5f5;
+        padding: 20px;
+        text-align: center;
+        color: #888;
+        font-size: 14px;
+    }
+    
+    /* Additional styles for specific elements within the footer */
+    footer a {
+        color: #888;
+        text-decoration: none;
+    }
 }
