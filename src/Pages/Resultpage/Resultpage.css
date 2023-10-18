@@ -58,6 +58,7 @@ body {
 @media (max-width: 600px) {
     .container {
       width: 90%;
+      height: 70vh;
     }
   
     .icon {
