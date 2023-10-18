@@ -1,13 +1,15 @@
 
 * {
     box-sizing: border-box;
-
 }
 
 body {
     background-color: #f0f5f5;
     color: black;
-    align-items: center;    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh;  
 }
 
 .message {
@@ -18,12 +20,13 @@ body {
     background-color: #26034a;
     position: relative;
     width: 60%;
-    height: 400px;
+    height: fit-content;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 100px;
+    margin: 0 auto;
+    padding: 1rem 0;
     color: white; 
     border-radius: 8px;
 }
