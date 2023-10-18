@@ -22,7 +22,7 @@ export default function Resultpage() {
                 </p>
                 <Link to="/">
                   <button
-                    className="button"
+                    className="get-started-button"
                     type="button"
                     onClick={() => setAns({ passed: 0, failed: 0 })}
                   >
